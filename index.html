@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-600">
+    <h1 class="text-3xl text-white text-center mt-16 ">Cart</h1>
+    <hr class="border-b-2 border-gray-700 mt-8">
+    <section class="m-4 ">
+        <div class="flex justify-around mt-8 text-white">
+            <p>#1</p>
+            <h1>Nike Air</h1>
+            <input id="nike-input" class="text-center  bg-gray-500" type="text" value="1">
+            <button id="nike-plus" class="border-2 border-gray-500 text-white p-1">+</button>
+            <button id="nike-minus" class="border-2 border-gray-500 text-white p-1">-</button>
+            <p>$<span id="nike-total">300</span></p>
+            <button class="bg-gray-500 text-white p-1">Delete</button>
+        </div>
+        <hr class="border-b-2 border-gray-700 mt-8">
+        <div class="flex justify-around mt-8 text-white">
+            <p>#2</p>
+            <h1>Nike Pro</h1>
+            <input id="pro-input" class="text-center  bg-gray-500" type="text" value="1">
+            <button id="pro-plus" class="border-2 border-gray-500 text-white p-1">+</button>
+            <button id="pro-minus" class="border-2 border-gray-500 text-white p-1">-</button>
+            <p>$<span id="pro-total">200</span></p>
+            <button class="bg-gray-500 text-white p-1">Delete</button>
+        </div>
+        <hr class="border-b-2 border-gray-700 mt-8">
+        <div class="flex justify-around mt-8 text-white">
+            <p>#3</p>
+            <h1>Air Max</h1>
+            <input id="max-input" class="text-center  bg-gray-500" type="text" value="1">
+            <button id="max-plus" class="border-2 border-gray-500 text-white p-1">+</button>
+            <button id="max-minus" class="border-2 border-gray-500 text-white p-1">-</button>
+            <p>$<span id="max-total">400</span></p>
+            <button class="bg-gray-500 text-white p-1">Delete</button>
+        </div>
+        <hr class="border-b-2 border-gray-700 mt-8">
+        <div class=" flex justify-end mt-8 text-white ">
+            <h1 class="text-xl">Total</h1>
+            <h1 class="mx-16 text-3xl">$<span id="total">900</span></h1>
+        </div>
+    
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
